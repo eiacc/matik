@@ -1,7 +1,7 @@
 # SIEMES
 
-To build a mini multi-tenant cms like shopify (MONO REPO)
-[Minimum Viable Product MVP](/TODO.txt)
+To build a mini multi-tenant cms like shopify (MONO REPO)  
+[Minimum Viable Product MVP](/TODO.txt)  
 [File Structure](/FileStructure.txt)
 
 ## GET STARTED
