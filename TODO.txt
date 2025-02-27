@@ -1,0 +1,27 @@
+- To build a mini multi-tenant cms like shopify (MONO REPO)
+
+stack:
+- ReactJS
+- TailwindCSS
+- NodeJS
+- S3
+- Cloudflare for Buckets, Hosting
+- surfercloud as server
+
+Sitemap:
+  public pages:
+    - homepage
+    - signin/signup with google Oauth
+    - storefront (hosted as cdns)
+
+  private pages:
+    - site generation (a user can create multiple stores)
+    - theme editor
+
+    admin: ability to switch store, logout
+      - product
+      - products
+      - analytics
+      - collections
+      - themes (theme will be very simple)
+      - appstore (for adding third party apps)
