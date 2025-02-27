@@ -1,4 +1,4 @@
-# SIEMES
+# Matik
 
 To build a mini multi-tenant cms like shopify (MONO REPO)  
 [Minimum Viable Product MVP](/TODO.txt)  
