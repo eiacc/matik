@@ -1,0 +1,66 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import "tailwindcss";
+
+:root {
+  --ff-inter: 'Inter', sans-serif;
+  --ff-raleway: 'Raleway', sans-serif;
+}
+
+*, *::before, *::after {
+  margin: 0;
+  color: #fff;
+}
+
+body {
+  box-sizing: border-box;
+}
+
+.inter-400 {
+  font-family: var(--ff-inter);
+  font-weight: 400;
+}
+
+.inter-500 {
+  font-family: var(--ff-inter);
+  font-weight: 500;
+}
+
+.inter-600 {
+  font-family: var(--ff-inter);
+  font-weight: 600;
+}
+
+.inter-700 {
+  font-family: var(--ff-inter);
+  font-weight: 700;
+}
+
+.raleway-400 {
+  font-family: var(--ff-raleway);
+  font-weight: 400;
+}
+
+.raleway-700 {
+  font-family: var(--ff-raleway);
+  font-weight: 700;
+}
+
+.max-w-desktop {
+  max-width: 1216px;
+  margin-inline: auto;
+}
+
+.card-bg {
+  background: linear-gradient(to bottom right, #1C1C1C 0%, #050505 100%);
+}
+
+/* .stretch-to-bottom {
+  grid-row-start: 1;
+  grid-row-end: 3;
+  grid-column-start: 4;
+  grid-column-end: 4;
+} */
+
+.scrollbar-hide::-webkit-scrollbar {
+  display: none;
+}
