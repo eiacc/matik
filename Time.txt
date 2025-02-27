@@ -1,0 +1,6 @@
+Env Setup
+  1 ~ 3 hours
+
+Design Mockup Research for
+  homepage, signin/signup, dashboard, 1 theme template
+  ~2 hours
