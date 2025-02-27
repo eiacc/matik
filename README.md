@@ -2,6 +2,8 @@
 
 To build a mini multi-tenant cms like shopify (MONO REPO)
 
+## [File Structure](/FileStructure.txt)
+
 ## GET STARTED
 
 - Clone Repo
@@ -10,12 +12,11 @@ To build a mini multi-tenant cms like shopify (MONO REPO)
     git clone repo_url
   ```
 
-- Install Dependencies
-
-  ```bash
-    bun i
-  ```
-
 ## Root Script
 
-Is a way to automate dependencies installation for /backend && /frontend
+Is a way to automate dependencies installation for /backend && /frontend.
+
+```bash
+  bun add axios --scope=frontend
+  bun add express --scope=backend
+```

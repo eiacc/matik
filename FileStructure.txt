@@ -1,0 +1,28 @@
+# File Structure
+
+/siemes
+├── apps
+│   ├── frontend   # React app
+│   │   ├── src
+│   │   ├── public
+│   │   ├── package.json
+│   │   └── vite.config.ts
+│   ├── backend    # Node.js API
+│   │   ├── src
+│   │   ├── package.json
+│   │   ├── tsconfig.json
+│   │   └── bun.lockb
+│   ├── mobile     # (Optional) React Native app
+│   │   ├── src
+│   │   ├── package.json
+│   │   └── metro.config.js
+│
+├── packages       # Shared utilities
+│   ├── ui         # (Optional) Shared React components
+│   ├── utils      # (Optional) Shared TypeScript utilities
+│   ├── config     # (Optional) Shared configs (ESLint, Prettier)
+│
+├── package.json   # Monorepo root
+├── bun.lockb      # Lockfile (Bun)
+├── turbo.json     # (Optional) Turborepo config
+└── .gitignore

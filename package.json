@@ -1,0 +1,9 @@
+{
+  "name": "siemes",
+  "private": true,
+  "workspaces": ["apps/*", "packages/*"],
+  "devDependencies": {
+    "@types/bun": "latest"
+  },
+  "packageManager": "bun@latest"
+}
