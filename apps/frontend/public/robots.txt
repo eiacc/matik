@@ -1,0 +1,5 @@
+# https://www.robotstxt.org/robotstxt.html
+USer-agent: *
+Disallow: /signin
+Disallow: /signup
+Disallow: /auth
