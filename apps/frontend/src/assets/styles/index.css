@@ -8,7 +8,6 @@
 
 *, *::before, *::after {
   margin: 0;
-  color: #fff;
 }
 
 body {
@@ -45,9 +44,14 @@ body {
   font-weight: 700;
 }
 
+.heading {
+  font-family: var(--ff-raleway);
+}
+
 .max-w-desktop {
   max-width: 1216px;
   margin-inline: auto;
+  padding-inline: 16px;
 }
 
 .card-bg {

@@ -1,15 +1,16 @@
 import { StrictMode } from 'react'
 import { createRoot } from 'react-dom/client'
-import { BrowserRouter, Routes, Route } from 'react-router'
-import Home from './pages/Home.tsx'
+import { BrowserRouter } from 'react-router'
 import "./assets/styles/index.css"
+import { HelmetProvider } from 'react-helmet-async';
+import AppRoutes from './AppRoutes';
 
 createRoot(document.getElementById('root')!).render(
   <StrictMode>
-    <BrowserRouter>
-      <Routes>
-        <Route index element={<Home/>} />
-      </Routes>
-    </BrowserRouter>
+    <HelmetProvider>
+      <BrowserRouter>
+        <AppRoutes />
+      </BrowserRouter>
+    </HelmetProvider>
   </StrictMode>,
 )
